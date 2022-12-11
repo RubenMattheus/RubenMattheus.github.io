@@ -1,31 +1,19 @@
----
-title: rapport prijs BTC
-author: Ruben Mattheus
-date: 11/12/2022-19:29
----
+Rapport gegenereerd op 11/12/2022-22:17
+onderzechte periode: 20221209-020001 tot 20221211-140001
 
-# analyse van de prijsdata van Bitcoin over de periode 20221209-020001 tot 20221211-140001
+# basisstatistieken
 
-1. basisstatistieken
-2. grafiek 1
-3. grafiek 2
+average: 17171.42
 
-# 1. basisstatistieken
+median: 17166.91
 
-average: 17171.42  
-median: 17166.91  
-minimum: 17102.20  
-maximum: 17256.46  
-standard deviation: 33.11  
-\newpage
+minimum: 17102.20
 
-# 2. grafiek 1
-grafiek van de prijs van Bitcoin over de onderzochte tijd
+maximum: 17256.46
 
-![](/home/osboxes/linux-22-23-RubenMattheus/data-workflow/rapport/graph.png)
-\newpage
+standard deviation: 33.11
 
-# 3. grafiek 2
-grafiek van de prijs van Bitcoin over de onderzochte tijd (ingezoomd)
-
-![](/home/osboxes/linux-22-23-RubenMattheus/data-workflow/rapport/graphzoom.png)
+# grafiek 1
+![](/home/osboxes/RubenMattheus.github.io/docs/assets/graph.png)
+# grafiek 2
+![](/home/osboxes/RubenMattheus.github.io/docs/assets/graphzoom.png)
