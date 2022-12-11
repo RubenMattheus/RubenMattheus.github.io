@@ -1,4 +1,5 @@
-Rapport gegenereerd op 11/12/2022-22:17
+Rapport gegenereerd op 11/12/2022-22:20
+
 onderzechte periode: 20221209-020001 tot 20221211-140001
 
 # basisstatistieken
@@ -14,6 +15,9 @@ maximum: 17256.46
 standard deviation: 33.11
 
 # grafiek 1
+
 ![](/home/osboxes/RubenMattheus.github.io/docs/assets/graph.png)
+
 # grafiek 2
+
 ![](/home/osboxes/RubenMattheus.github.io/docs/assets/graphzoom.png)
