@@ -16,7 +16,7 @@ standard deviation: 33.11
 
 # grafiek 1
 
-![](/RubenMattheus.github.io/docs/assets/graph.png)
+![](https://RubenMattheus.github.io/docs/assets/graph.png)
 
 # grafiek 2
 
