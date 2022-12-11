@@ -1,4 +1,4 @@
-Rapport gegenereerd op 11/12/2022-22:20
+Rapport gegenereerd op 11/12/2022-22:36
 
 onderzechte periode: 20221209-020001 tot 20221211-140001
 
@@ -20,4 +20,4 @@ standard deviation: 33.11
 
 # grafiek 2
 
-![](/RubenMattheus.github.io/docs/assets/graphzoom.png)
+![](https://RubenMattheus.github.io/docs/assets/graphzoom.png)
