@@ -1,6 +1,6 @@
-Rapport gegenereerd op 11/12/2022-22:36
+Rapport gegenereerd op 11/12/2022-22:39
 
-onderzechte periode: 20221209-020001 tot 20221211-140001
+onderzochte periode: 20221209-020001 tot 20221211-140001
 
 # basisstatistieken
 
