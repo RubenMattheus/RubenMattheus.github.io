@@ -1,4 +1,4 @@
-Rapport gegenereerd op 11/12/2022-22:39
+Rapport prijs Bitcoin, gegenereerd op 11/12/2022-22:44
 
 onderzochte periode: 20221209-020001 tot 20221211-140001
 
