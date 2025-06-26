@@ -4,177 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ruben Mattheus</title>
-  <link rel="icon" href="https://img.icons8.com/ios-filled/50/ffffff/github.png" type="image/png">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-        * {
-        box-sizing: border-box;
-        }
-        html, body {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        font-family: 'Inter', sans-serif;
-        background: #1a1a1a;
-        color: #eee;
-        line-height: 1.6;
-        scroll-behavior: smooth;
-        }
-        header {
-        text-align: center;
-        padding: 4rem 1rem 2rem;
-        background: linear-gradient(135deg, #111 0%, #222 100%);
-        color: #fff;
-        }
-        .profile-pic {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 4px solid #fff;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        }
-        .description {
-        max-width: 600px;
-        margin: 1rem auto 1rem;
-        font-size: 1.1rem;
-        }
-        .quote-box {
-        max-width: 600px;
-        margin: 1rem auto 0;
-        background: linear-gradient(135deg, #333 0%, #555 100%);
-        color: #fff;
-        border-left: 5px solid #fff;
-        padding: 1.5rem 2rem;
-        font-style: italic;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        section {
-        width: 100%;
-        margin: 0;
-        padding: 4rem 1rem;
-        background: linear-gradient(135deg, #202020 0%, #2a2a2a 100%);
-        box-shadow: inset 0 1px 0 #444, inset 0 -1px 0 #444;
-        }
-        .container {
-        max-width: 1000px;
-        margin: 0 auto;
-        }
-        h2 {
-        text-align: center;
-        font-size: 2rem;
-        border-bottom: 2px solid #666;
-        padding-bottom: 0.5rem;
-        margin-bottom: 2rem;
-        color: #fff;
-        }
-        .project, .featured-item, .extra-item {
-        margin-bottom: 2rem;
-        background: linear-gradient(135deg, #2e2e2e 0%, #444 100%);
-        border-radius: 10px;
-        padding: 1rem 1.5rem;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .project:hover, .featured-item:hover, .extra-item:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 16px rgba(0,0,0,0.4);
-        }
-
-        .project {
-        display: flex;
-        align-items: flex-start;  /* align top edges */
-        gap: 2rem;
-        margin-bottom: 2rem;
-        background: linear-gradient(135deg, #2e2e2e 0%, #444 100%);
-        border-radius: 10px;
-        padding: 1rem 1.5rem;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .project:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 16px rgba(0,0,0,0.4);
-        }
-
-        .project img {
-        width: 250px;          /* bigger image */
-        height: 150px;
-        object-fit: cover;
-        border-radius: 8px;
-        flex-shrink: 0;        /* don't shrink */
-        }
-
-        .project-text {
-        flex: 1;
-        display: flex;
-        flex-direction: column; /* stack title above description */
-        justify-content: flex-start;
-        }
-
-        .project-title {
-        font-weight: 600;
-        font-size: 1.5rem;     /* slightly bigger title */
-        margin-bottom: 0.5rem;
-        color: #eee;
-        }
-
-        .project-text p {
-        margin: 0;             /* remove default margin for neatness */
-        color: #ccc;
-        }
-        .featured-title, .extra-title {
-        font-weight: 600;
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
-        color: #eee;
-        }
-
-        footer {
-        text-align: center;
-        font-size: 0.9rem;
-        padding: 2rem 1rem;
-        background: linear-gradient(135deg, #111 0%, #222 100%);
-        color: #eee;
-        }
-        .fade-in {
-        opacity: 0;
-        transform: translateY(20px);
-        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-        }
-        .fade-in.visible {
-        opacity: 1;
-        transform: translateY(0);
-        }
-
-        /* Link styling */
-        a {
-        color: #eee;
-        text-decoration: underline;
-        cursor: pointer;
-        transition: color 0.3s ease;
-        }
-        a:hover, a:focus {
-        color: #fff;
-        text-decoration: underline;
-        }
-  </style>
+  <link rel="icon" href="https://img.icons8.com/ios-filled/50/ffffff/github.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <img src="images/picture.png" alt="Your Name" class="profile-pic">
+    <img src="images/picture.png" alt="Your Name" class="profile-pic" />
     <p class="description">
-        Als gepassioneerde student Toegepaste Informatica met een sterk
-        analytisch denkvermogen en een grote nieuwsgierigheid naar hetgeen
-        ik nu nog niet weet ben ik enthousiast om mijn ervaring in persoonlijke
-        projecten toe te passen in een professionele omgeving.
+      Als gepassioneerde student Toegepaste Informatica met een sterk
+      analytisch denkvermogen en een grote nieuwsgierigheid naar hetgeen
+      ik nu nog niet weet ben ik enthousiast om mijn ervaring in persoonlijke
+      projecten toe te passen in een professionele omgeving.
     </p>
     <div class="quote-box fade-in">
-      “Perfection is not attainable.
-      <br>But if we chase perfection, we can catch excellence.”
-      <br>- Vince Lombardi
+      “Perfection is not attainable.<br>
+      But if we chase perfection, we can catch excellence.”<br>
+      - Vince Lombardi
     </div>
   </header>
 
@@ -184,49 +30,40 @@
       <div class="featured-item">
         <div class="featured-title">Bachelorproef</div>
         <p>Voorspellen van reps in reserve (RIR) bij het uitvoeren van weerstandstraining aan de hand van AI.</p>
-        <a href="MattheusRubenBP.pdf" target="_blank" rel="noopener noreferrer">BP</a>
+        <a href="bp/MattheusRubenBP.pdf" target="_blank" rel="noopener noreferrer">BP</a>
       </div>
     </div>
   </section>
 
   <section class="fade-in">
     <div class="container">
-      <h2>Projects</h2>
-        <div class="project">
+      <h2>Projecten</h2>
+      <div class="project">
         <img src="images/discord-bot.png" alt="Discord Bot Screenshot" />
         <div class="project-text">
-            <div class="project-title">Discord bot</div>
-            <p>
+          <div class="project-title">Discord bot</div>
+          <p>
             Een bot met als voornaamste functionaliteit het afspelen van de audio uit youtube videos in een spraakkanaal, de wachtlijst van videos
             kan beheerd worden via een eerder ingesteld tekstkanaal. Dit tekstkanaal wordt opgeslagen aan de hand van SQLite. Andere functionaliteiten zijn het
             spelen van minigames in een tekstkanaal en het bijhouden van de hoeveelheid berichten per gebruiker.
-            </p>
+          </p>
         </div>
-        </div>
-      <!-- <div class="project">
-        <div class="project-title">title</div>
-        <p>description</p>
-      </div> -->
+      </div>
     </div>
   </section>
 
   <section class="fade-in">
     <div class="container">
-      <h2>Extras</h2>
+      <h2>Extra's</h2>
       <div class="extra-item">
         <div class="extra-title">LeetCode</div>
         <p>
-            Easy:   16/883<br>
-            Medium: 8/1868<br>
-            Hard:   1/845
-            <br>
-            <br><a href="https://leetcode.com/u/RubenMattheus/">Profile</a>
+          Easy:   16/883<br>
+          Medium: 8/1868<br>
+          Hard:   1/845
+          <br><br><a href="https://leetcode.com/u/RubenMattheus/">Profile</a>
         </p>
       </div>
-      <!-- <div class="extra-item">
-        <div class="extra-title">title</div>
-        <p>description</p>
-      </div> -->
     </div>
   </section>
 
@@ -234,22 +71,6 @@
     &copy; 2025 Ruben Mattheus — Hosted on GitHub Pages
   </footer>
 
-  <script>
-    const faders = document.querySelectorAll('.fade-in');
-    const appearOptions = {
-      threshold: 0.1,
-      rootMargin: "0px 0px -50px 0px"
-    };
-    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      });
-    }, appearOptions);
-    faders.forEach(fader => {
-      appearOnScroll.observe(fader);
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
