@@ -1,3 +1,35 @@
+.project-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.project-box-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 170px;
+  height: 100%;
+}
+.project-box-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.project-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 170px;
+  height: 100%;
+}
 * {
   box-sizing: border-box;
 }
@@ -83,18 +115,20 @@ h2 {
   box-shadow: 0 4px 16px rgba(0,0,0,0.4);
 }
 
-.project {
+project {
   display: flex;
-  align-items: flex-start;
   gap: 2rem;
+  align-items: center;
 }
 
-.project img {
-  width: 250px;
+project img {
+  width: 150px;
   height: 150px;
-  object-fit: cover;
+  object-fit: contain;
+  background: #222;
   border-radius: 8px;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .project-text {
@@ -109,11 +143,17 @@ h2 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: #eee;
+  text-align: left;
+  margin-left: 0; /* Removed left margin for alignment */
 }
 
 .project-text p {
   margin: 0;
   color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; /* Added alignment for text */
 }
 
 .featured-title, .extra-title {
