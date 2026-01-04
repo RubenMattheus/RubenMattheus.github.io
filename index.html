@@ -1,85 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ruben Mattheus</title>
-  <link rel="icon" href="https://img.icons8.com/ios-filled/50/ffffff/github.png" type="image/png" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruben Mattheus – Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <header>
-    <img src="images/picture.png" alt="Your Name" class="profile-pic" />
-    <p class="description">
-      As a passionate Applied Computer Science student with strong analytical
-      skills and great curiosity for the unknown, I am enthusiastic about applying
-      the experience gained from personal projects in a professional setting.
-    </p>
-    <div class="quote-box fade-in">
-      “Perfection is not attainable.<br>
+    <img src="images/picture.png" class="profile-pic" alt="Profile Picture">
+    <p class="description"></p>
+
+    <div class="quote-box">
+      <p class="quote-text">“Perfection is not attainable.<br>
       But if we chase perfection, we can catch excellence.”<br>
-      - Vince Lombardi
+      - Vince Lombardi</p>
     </div>
   </header>
 
-  <section class="fade-in">
+  <section class="showcase-section fade-in">
     <div class="container">
-      <h2>Featured</h2>
-      <div class="featured-item">
-        <div class="featured-title">Thesis</div>
-        <p>
-          My thesis focused on predicting the reps in reserve (RIR) when performing a bench press set using AI.
-        </p>
-        <a href="bp/MattheusRubenBP.pdf" target="_blank" rel="noopener noreferrer">thesis (dutch)</a>
+      <h2>Showcase</h2>
+      <div class="showcase-list"></div>
+    </div>
+  </section>
+
+  <section class="experience-section fade-in">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="experience-list"></div>
+    </div>
+  </section>
+
+  <section class="education-section fade-in">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="education-list"></div>
+    </div>
+  </section>
+
+  <section class="skills-section fade-in">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-carousel">
       </div>
     </div>
   </section>
 
-  <section class="fade-in">
+  <section class="languages-section fade-in">
     <div class="container">
-      <h2>Projects</h2>
-      <div class="project">
-        <div class="project-box">
-          <div class="project-box-left">
-            <div class="project-logo">
-              <img src="https://img.icons8.com/ios-filled/100/5865F2/discord-logo.png" alt="Discord Logo" />
-            </div>
-          </div>
-          <div class="project-box-right">
-            <div class="project-title">Discord bot</div>
-            <div class="project-text">
-              <p>
-                A bot with its main functionality being the playback of YouTube videos in a voice channel. The queue for said videos can be managed in a text channel.
-                The text channel ID is stored using an SQLite database so it persists after restarting the bot. Additional features include playing minigames in a
-                text channel and keeping track of the amount of messages each member has sent.
-              </p>
-            </div>
-          </div>
-        </div>
+      <h2>Languages</h2>
+      <div class="languages-list">
       </div>
     </div>
   </section>
-
-  <!-- <section class="fade-in">
-    <div class="container">
-      <h2>Extra's</h2>
-      <div class="extra-item">
-        <div class="extra-title">LeetCode</div>
-        <p>
-          Easy:   <br>
-          Medium: <br>
-          Hard:   
-          <br><br><a href="https://leetcode.com/u/RubenMattheus/">Profile</a>
-        </p>
-      </div>
-    </div>
-  </section> -->
 
   <footer>
-    &copy; 2025 Ruben Mattheus
+    <div class="footer-info">
+      <div class="footer-left">
+        <p class="footer-location"></p>
+        <p class="footer-phone"></p>
+        <p class="footer-email"></p>
+      </div>
+    </div>
+    <p>© <span id="year"></span> Ruben Mattheus</p>
   </footer>
 
+  <script src="data.js"></script>
   <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
